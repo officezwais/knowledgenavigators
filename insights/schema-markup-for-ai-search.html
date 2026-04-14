@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/main.css">
+<title>Schema markup for AI search: what LLMs actually use</title>
+<meta name="description" content="Most sites ship schema that nobody reads. Here's the JSON-LD architecture that AI answer engines actually parse — and the mistakes to stop making.">
+<link rel="canonical" href="https://www.knowledge-navigators.com/insights/schema-markup-for-ai-search/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.knowledge-navigators.com/insights/schema-markup-for-ai-search/">
+<meta property="og:title" content="Schema markup for AI search: what LLMs actually use">
+<meta property="og:description" content="Most sites ship schema that nobody reads. Here's the JSON-LD architecture that AI answer engines actually parse — and the mistakes to stop making.">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.knowledge-navigators.com/"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.knowledge-navigators.com/insights/"},{"@type":"ListItem","position":3,"name":"Schema markup for AI search: what LLMs actually use","item":"https://www.knowledge-navigators.com/insights/schema-markup-for-ai-search/"}]},{"@type":"Article","@id":"https://www.knowledge-navigators.com/insights/schema-markup-for-ai-search/#article","headline":"Schema markup for AI search: what LLMs actually use","description":"Most sites ship schema that nobody reads. Here's the JSON-LD architecture that AI answer engines actually parse — and the mistakes to stop making.","datePublished":"2026-04-09","dateModified":"2026-04-09","author":{"@type":"Organization","@id":"https://www.knowledge-navigators.com/#organization","name":"Knowledge Navigators"},"publisher":{"@id":"https://www.knowledge-navigators.com/#organization"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.knowledge-navigators.com/insights/schema-markup-for-ai-search/"},"inLanguage":"en"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does schema still matter if AI can read unstructured text?","acceptedAnswer":{"@type":"Answer","text":"More than ever. Schema is how you give the engine a machine-readable confirmation of what the prose claims, which is exactly what reduces hallucination and increases citation confidence."}},{"@type":"Question","name":"Should I use JSON-LD or microdata?","acceptedAnswer":{"@type":"Answer","text":"JSON-LD. It's what Google, Bing, and every AI engine prefer, and it keeps the schema separate from the rendered HTML, which is easier to maintain."}},{"@type":"Question","name":"How do I validate schema?","acceptedAnswer":{"@type":"Answer","text":"Google's Rich Results Test, Schema.org validator, and Schema Markup Validator. Run all three — they catch different issues."}}]}]}
+</script>
+</head>
+<body>
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<header class="site-header">
+    <a href="/" class="site-logo">KN / Knowledge Navigators</a>
+    <nav class="site-nav" aria-label="Primary navigation">
+        <a href="/services/generative-engine-optimization/">GEO</a>
+        <a href="/services/answer-engine-optimization/">AEO</a>
+        <a href="/services/technical-seo/">SEO</a>
+        <a href="/services/ai-implementation/">AI</a>
+        <a href="/insights/" aria-current="page">Insights</a>
+        <a href="/about/">About</a>
+        <a href="/contact/" class="btn-nav">Start Audit →</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="3" y1="8" x2="21" y2="8"/><line x1="3" y1="16" x2="21" y2="16"/></svg>
+    </button>
+</header>
+
+<main>
+<section class="page-hero">
+    <div class="page-hero-orb" aria-hidden="true"></div>
+    <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/insights/">Insights</a><span class="sep">/</span><span aria-current="page">Schema markup for AI search: what LLMs actually use</span></nav>
+        <span class="label">Insight / 07</span>
+        <h1>Schema Markup<br>for AI Search<span class="text-accent">.</span></h1>
+        <p class="lede">A practical guide to JSON-LD for the generative era. Which types matter, how to chain them with stable entity IDs, and the three mistakes that kill citation share.</p>
+        <div class="hero-ctas">
+            <a href="/contact/" class="btn">Request Free Audit →</a>
+            <a href="/insights/" class="btn btn-ghost">All Insights</a>
+        </div>
+    </div>
+</section>
+<section class="section" style="padding-top:0;">
+  <div class="container" style="max-width:760px;">
+    <div class="fade-up" style="padding:1.75rem 2rem;background:rgba(226,255,84,.06);border-left:3px solid var(--accent);">
+      <p style="font-family:var(--font-mono);font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);margin:0 0 .75rem 0;">TL;DR</p>
+      <p style='margin:0;'><strong>AI answer engines parse schema as confirmation of what the prose claims. The types that matter most for GEO are Organization, Service/Product, Article, FAQPage, BreadcrumbList and HowTo. The high-leverage move is chaining them with stable <code>@id</code> references so every page participates in one coherent knowledge graph.</strong></p>
+    </div>
+  </div>
+</section>
+<section class="section" style="padding-top:1rem;">
+  <div class="container" style="max-width:760px;">
+    <article class="fade-up" style="font-size:1.05rem;line-height:1.8;">
+      
+<h2>Why schema matters more in the AI era, not less</h2>
+<p>There's a persistent myth that because LLMs can parse unstructured text, schema is obsolete. The opposite is true. LLMs parse unstructured text generatively — which means they also generate hallucinations, ambiguities and confident wrong answers. Schema is how you give the engine a machine-readable fact-check of what the prose is claiming. It's the difference between "the model thinks your brand is a pharma company" and "the model knows your brand is a pharma company because the schema says so and the prose confirms it." Every engine we've measured rewards the coherent pair.</p>
+
+<h2>The schema types that actually matter</h2>
+<p><strong>Organization</strong> — one per site, canonical node. Include name, url, logo, sameAs (pointing to Wikidata, LinkedIn, Crunchbase, etc), foundingDate, address, and contactPoint. This is the root node every other schema block should reference.</p>
+<p><strong>ProfessionalService / Service / Product</strong> — for every offering. Name, description, serviceType, provider (pointing back to the Organization by @id), areaServed, offers. This is where most sites are either absent or shipping junk.</p>
+<p><strong>Article</strong> — on every editorial page. Headline, description, datePublished, dateModified, author (with @id), publisher (with @id pointing to the Organization), mainEntityOfPage. Critical for Article citations.</p>
+<p><strong>FAQPage</strong> — on service and article pages that answer questions. Each Question gets its Answer explicitly, structured, and <em>matching what the prose says</em>. Do not use FAQPage as a keyword-stuffing vehicle. Engines will ignore or demote.</p>
+<p><strong>BreadcrumbList</strong> — on every page. Unglamorous. High compounding. It tells the engine where the page sits in the site's hierarchy.</p>
+<p><strong>HowTo</strong> — on step-based content. Heavily used by Google AI Overviews for "how do I" queries.</p>
+
+<h2>The high-leverage move: stable @id chaining</h2>
+<p>The move that separates serious schema from decorative schema is using stable <code>@id</code> references to build one coherent graph across the whole site. Every page's Organization block uses the same <code>@id</code> (e.g. <code>https://yoursite.com/#organization</code>). Every Service block references that same @id as its provider. Every Article references the same Organization as publisher. The result: an answer engine parsing any single page can reconstruct the whole knowledge graph of the brand. This is what LLMs reward — because it's how their internal models of entities are structured anyway.</p>
+
+<h2>Three mistakes that kill citation share</h2>
+<p><strong>Mistake 1 — shipping schema that contradicts the prose.</strong> If your schema says "founded in 2015" and your About page says "founded in 2018," the engine drops trust in both. Consistency is the whole game.</p>
+<p><strong>Mistake 2 — keyword-stuffing FAQPage blocks.</strong> Every modern answer engine has filters for this. Stuffing FAQPage with marketing questions that aren't really questions will get your schema ignored or the page demoted. Only ship FAQ schema for questions real users actually ask.</p>
+<p><strong>Mistake 3 — unstable or unresolvable @ids.</strong> If your @ids don't resolve to real URL fragments, or change between page loads, the engine cannot link nodes into a graph. Pick a convention (e.g. <code>https://yoursite.com/#organization</code>) and use it everywhere.</p>
+
+<h2>A minimal schema architecture to start from</h2>
+<p>Every page: BreadcrumbList. Every homepage: Organization + WebSite. Every service page: Service + FAQPage + BreadcrumbList. Every article: Article + FAQPage + BreadcrumbList. Every product page: Product + FAQPage + BreadcrumbList. This covers 95% of the GEO-relevant cases for a typical B2B site and takes one senior engineer about two weeks to implement cleanly.</p>
+
+    </article>
+  </div>
+</section>
+<section class="section">
+  <div class="container" style="max-width:760px;">
+    <div class="section-header fade-up"><span class="label">FAQ</span><h2>Common questions.</h2></div>
+    <div class="faq-list fade-up">
+<details><summary>Does schema still matter if AI can read unstructured text?<span class="faq-icon">+</span></summary><div class="faq-body"><p>More than ever. Schema is how you give the engine a machine-readable confirmation of what the prose claims, which is exactly what reduces hallucination and increases citation confidence.</p></div></details>
+<details><summary>Should I use JSON-LD or microdata?<span class="faq-icon">+</span></summary><div class="faq-body"><p>JSON-LD. It's what Google, Bing, and every AI engine prefer, and it keeps the schema separate from the rendered HTML, which is easier to maintain.</p></div></details>
+<details><summary>How do I validate schema?<span class="faq-icon">+</span></summary><div class="faq-body"><p>Google's Rich Results Test, Schema.org validator, and Schema Markup Validator. Run all three — they catch different issues.</p></div></details>
+</div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="section-header fade-up"><span class="label">Related</span><h2>Keep reading.</h2></div>
+    <div class="related-grid fade-up"><a href="/insights/answer-engine-optimization-playbook/" class="related-card"><span class="feature-num">Insight</span><h3>The Answer Engine Optimization Playbook →</h3><p>Where schema fits in the broader AEO move.</p></a><a href="/insights/entity-seo-complete-guide/" class="related-card"><span class="feature-num">Insight</span><h3>Entity SEO: the complete guide →</h3><p>How entities and schema work together.</p></a><a href="/services/technical-seo/" class="related-card"><span class="feature-num">Insight</span><h3>Technical SEO service →</h3><p>The engineering layer that ships clean schema.</p></a></div>
+  </div>
+</section><section class="cta-band">
+    <div class="container">
+        <h2 class="fade-up">Is your brand <span class="text-accent">inside the answer</span>?</h2>
+        <p class="fade-up delay-1">Free AI Visibility Audit. Response in one working day.</p>
+        <div class="btn-group fade-up delay-2">
+            <a href="/contact/" class="btn">Request Free Audit →</a>
+            <a href="/insights/" class="btn btn-ghost">Read More Insights</a>
+        </div>
+    </div>
+</section>
+</main>
+
+<footer>
+    <div class="container fade-up">
+        <div class="footer-content">
+            <div>
+                <div class="footer-title">Knowledge<br>Navigators.</div>
+                <p style="color:var(--text-secondary);font-size:.9rem;max-width:300px;">Elite GEO, AEO & technical SEO agency. Based in Germany. Working across Europe.</p>
+            </div>
+            <div>
+                <span class="footer-col-label">Services</span>
+                <div class="footer-links">
+                    <a href="/services/generative-engine-optimization/">Generative Engine Optimization</a>
+                    <a href="/services/answer-engine-optimization/">Answer Engine Optimization</a>
+                    <a href="/services/technical-seo/">Technical SEO</a>
+                    <a href="/services/ai-implementation/">AI Implementation</a>
+                </div>
+            </div>
+            <div>
+                <span class="footer-col-label">Locations</span>
+                <div class="footer-links">
+                    <a href="/locations/vienna/">Vienna</a>
+                    <a href="/locations/berlin/">Berlin</a>
+                    <a href="/locations/zurich/">Zurich</a>
+                    <a href="/locations/london/">London</a>
+                    <a href="/locations/amsterdam/">Amsterdam</a>
+                </div>
+            </div>
+            <div>
+                <span class="footer-col-label">Company</span>
+                <div class="footer-links">
+                    <a href="/about/">About & Team</a>
+                    <a href="/insights/">Insights</a>
+                    <a href="/contact/">Contact</a>
+                    <a href="mailto:hello@knowledge-navigators.com">hello@knowledge-navigators.com</a>
+                    <a href="/legal/impressum/">Impressum</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Knowledge Navigators Agency.</span>
+            <div class="footer-status"><span class="footer-status-dot" aria-hidden="true"></span><span>All systems operational.</span></div>
+        </div>
+    </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

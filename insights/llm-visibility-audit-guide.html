@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/main.css">
+<title>LLM visibility audit: a step-by-step guide</title>
+<meta name="description" content="How to audit your brand's visibility inside ChatGPT, Perplexity, Gemini, Claude and Google AI Overviews — the exact process we use with clients.">
+<link rel="canonical" href="https://www.knowledge-navigators.com/insights/llm-visibility-audit-guide/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.knowledge-navigators.com/insights/llm-visibility-audit-guide/">
+<meta property="og:title" content="LLM visibility audit: a step-by-step guide">
+<meta property="og:description" content="How to audit your brand's visibility inside ChatGPT, Perplexity, Gemini, Claude and Google AI Overviews — the exact process we use with clients.">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.knowledge-navigators.com/"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.knowledge-navigators.com/insights/"},{"@type":"ListItem","position":3,"name":"LLM visibility audit: a step-by-step guide","item":"https://www.knowledge-navigators.com/insights/llm-visibility-audit-guide/"}]},{"@type":"Article","@id":"https://www.knowledge-navigators.com/insights/llm-visibility-audit-guide/#article","headline":"LLM visibility audit: a step-by-step guide","description":"How to audit your brand's visibility inside ChatGPT, Perplexity, Gemini, Claude and Google AI Overviews — the exact process we use with clients.","datePublished":"2026-04-09","dateModified":"2026-04-09","author":{"@type":"Organization","@id":"https://www.knowledge-navigators.com/#organization","name":"Knowledge Navigators"},"publisher":{"@id":"https://www.knowledge-navigators.com/#organization"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.knowledge-navigators.com/insights/llm-visibility-audit-guide/"},"inLanguage":"en"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can we run this audit ourselves?","acceptedAnswer":{"@type":"Answer","text":"Yes. It takes a methodical analyst about a week for a 200-prompt panel. The harder part is doing it consistently month after month, which is where specialist tooling pays off."}},{"@type":"Question","name":"How often should we refresh the prompt panel?","acceptedAnswer":{"@type":"Answer","text":"Quarterly. Keep the core 70% stable for trend analysis, rotate the other 30% to capture evolving buyer language."}},{"@type":"Question","name":"Which engine matters most?","acceptedAnswer":{"@type":"Answer","text":"Depends on your market and buyer behavior. For European B2B we generally weight Google AI Overviews, Perplexity, and ChatGPT most heavily. For enterprise buyers inside Microsoft ecosystems, Copilot and Gemini rise fast."}}]}]}
+</script>
+</head>
+<body>
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<header class="site-header">
+    <a href="/" class="site-logo">KN / Knowledge Navigators</a>
+    <nav class="site-nav" aria-label="Primary navigation">
+        <a href="/services/generative-engine-optimization/">GEO</a>
+        <a href="/services/answer-engine-optimization/">AEO</a>
+        <a href="/services/technical-seo/">SEO</a>
+        <a href="/services/ai-implementation/">AI</a>
+        <a href="/insights/" aria-current="page">Insights</a>
+        <a href="/about/">About</a>
+        <a href="/contact/" class="btn-nav">Start Audit →</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="3" y1="8" x2="21" y2="8"/><line x1="3" y1="16" x2="21" y2="16"/></svg>
+    </button>
+</header>
+
+<main>
+<section class="page-hero">
+    <div class="page-hero-orb" aria-hidden="true"></div>
+    <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/insights/">Insights</a><span class="sep">/</span><span aria-current="page">LLM visibility audit: a step-by-step guide</span></nav>
+        <span class="label">Insight / 08</span>
+        <h1>LLM Visibility<br>Audit Guide<span class="text-accent">.</span></h1>
+        <p class="lede">The exact process we use to measure where a brand stands inside the AI answer layer. You can run a rough version of this in an afternoon.</p>
+        <div class="hero-ctas">
+            <a href="/contact/" class="btn">Request Free Audit →</a>
+            <a href="/insights/" class="btn btn-ghost">All Insights</a>
+        </div>
+    </div>
+</section>
+<section class="section" style="padding-top:0;">
+  <div class="container" style="max-width:760px;">
+    <div class="fade-up" style="padding:1.75rem 2rem;background:rgba(226,255,84,.06);border-left:3px solid var(--accent);">
+      <p style="font-family:var(--font-mono);font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);margin:0 0 .75rem 0;">TL;DR</p>
+      <p style='margin:0;'><strong>An LLM visibility audit has five steps: define the prompt panel, run queries across six engines, score citation presence, analyze by competitor and topic, and flag the top leverage points. Done right, it takes a senior analyst about a week — and it's the single most useful starting point for any GEO engagement.</strong></p>
+    </div>
+  </div>
+</section>
+<section class="section" style="padding-top:1rem;">
+  <div class="container" style="max-width:760px;">
+    <article class="fade-up" style="font-size:1.05rem;line-height:1.8;">
+      
+<h2>Step 1 — Define the prompt panel</h2>
+<p>The prompt panel is the list of queries you'll measure against. It should contain 100–500 queries depending on your category size. Get the queries from three sources: your sales team (what do real prospects ask on discovery calls), your support team (what do customers ask post-sale), and your own synthetic rewrites of keyword research into natural-language questions. Avoid keyword lists translated mechanically into questions — prompt panels that look like SEO keyword lists don't measure AI behavior well, because real LLM users ask in complete sentences with context.</p>
+
+<h2>Step 2 — Run the panel across six engines</h2>
+<p>Every prompt gets run in Google AI Overviews, Perplexity, ChatGPT (both memory-only and ChatGPT Search), Gemini, Claude, and Microsoft Copilot. That's six surfaces, six runs per prompt. For 200 prompts that's 1,200 query executions. This is where specialist tooling earns its keep — running manually is slow and introduces bias. We use a combination of API access (where available) and browser automation. Record the full response, the cited sources, and the position of every mention.</p>
+
+<h2>Step 3 — Score citation presence</h2>
+<p>For each prompt, record: was the brand named at all, at what position in the response, with what surrounding context (neutral / positive / negative), alongside which competitors, and with what attribution (direct link, indirect mention, implied reference). Aggregate into share-of-voice metrics per engine and overall. This gives you the baseline: today, for this prompt panel, what percentage of answers name your brand.</p>
+
+<h2>Step 4 — Analyze by competitor and topic</h2>
+<p>Cross-tabulate the results. Which competitors win which topics? Are there engines where you dominate and engines where you're absent? Are there topic clusters where no brand dominates (blue-ocean GEO opportunities)? Are there engines where a specific competitor has an unreasonable share (suggesting they did focused GEO work there)? Answers to these questions tell you where to allocate the next 90 days of work.</p>
+
+<h2>Step 5 — Flag the top leverage points</h2>
+<p>The audit should end with a ranked list of concrete actions. Not 40 findings — 10 leverage points, ranked by expected impact and effort. Examples: "Fix entity ambiguity in Wikidata (high impact, low effort)." "Rewrite /solutions hub for extractability (high impact, medium effort)." "Publish pillar article on [topic X] where no brand currently dominates (high impact, high effort, longest payback)."</p>
+
+<h2>What to do with the audit afterward</h2>
+<p>Run the same panel monthly. Nothing else you do in GEO matters if you're not measuring the same thing consistently. The delta month over month is what tells you whether the work is working. And repeat the panel refresh every quarter — buyer questions evolve, and so should the measurement.</p>
+<p>If this sounds like a lot, it is — but it's also a one-week project for an experienced practitioner, and the output shapes every downstream decision. We deliver this as the first phase of every GEO engagement, and many clients subscribe to an ongoing version as a standalone measurement service.</p>
+
+    </article>
+  </div>
+</section>
+<section class="section">
+  <div class="container" style="max-width:760px;">
+    <div class="section-header fade-up"><span class="label">FAQ</span><h2>Common questions.</h2></div>
+    <div class="faq-list fade-up">
+<details><summary>Can we run this audit ourselves?<span class="faq-icon">+</span></summary><div class="faq-body"><p>Yes. It takes a methodical analyst about a week for a 200-prompt panel. The harder part is doing it consistently month after month, which is where specialist tooling pays off.</p></div></details>
+<details><summary>How often should we refresh the prompt panel?<span class="faq-icon">+</span></summary><div class="faq-body"><p>Quarterly. Keep the core 70% stable for trend analysis, rotate the other 30% to capture evolving buyer language.</p></div></details>
+<details><summary>Which engine matters most?<span class="faq-icon">+</span></summary><div class="faq-body"><p>Depends on your market and buyer behavior. For European B2B we generally weight Google AI Overviews, Perplexity, and ChatGPT most heavily. For enterprise buyers inside Microsoft ecosystems, Copilot and Gemini rise fast.</p></div></details>
+</div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="section-header fade-up"><span class="label">Related</span><h2>Keep reading.</h2></div>
+    <div class="related-grid fade-up"><a href="/insights/perplexity-citation-optimization/" class="related-card"><span class="feature-num">Insight</span><h3>Perplexity citation optimization →</h3><p>The tightest feedback loop in GEO measurement.</p></a><a href="/insights/how-to-rank-in-chatgpt/" class="related-card"><span class="feature-num">Insight</span><h3>How to rank in ChatGPT →</h3><p>Two-surface optimization for the highest-volume engine.</p></a><a href="/insights/geo-vs-seo/" class="related-card"><span class="feature-num">Insight</span><h3>GEO vs SEO →</h3><p>What to measure in each discipline.</p></a></div>
+  </div>
+</section><section class="cta-band">
+    <div class="container">
+        <h2 class="fade-up">Is your brand <span class="text-accent">inside the answer</span>?</h2>
+        <p class="fade-up delay-1">Free AI Visibility Audit. Response in one working day.</p>
+        <div class="btn-group fade-up delay-2">
+            <a href="/contact/" class="btn">Request Free Audit →</a>
+            <a href="/insights/" class="btn btn-ghost">Read More Insights</a>
+        </div>
+    </div>
+</section>
+</main>
+
+<footer>
+    <div class="container fade-up">
+        <div class="footer-content">
+            <div>
+                <div class="footer-title">Knowledge<br>Navigators.</div>
+                <p style="color:var(--text-secondary);font-size:.9rem;max-width:300px;">Elite GEO, AEO & technical SEO agency. Based in Germany. Working across Europe.</p>
+            </div>
+            <div>
+                <span class="footer-col-label">Services</span>
+                <div class="footer-links">
+                    <a href="/services/generative-engine-optimization/">Generative Engine Optimization</a>
+                    <a href="/services/answer-engine-optimization/">Answer Engine Optimization</a>
+                    <a href="/services/technical-seo/">Technical SEO</a>
+                    <a href="/services/ai-implementation/">AI Implementation</a>
+                </div>
+            </div>
+            <div>
+                <span class="footer-col-label">Locations</span>
+                <div class="footer-links">
+                    <a href="/locations/vienna/">Vienna</a>
+                    <a href="/locations/berlin/">Berlin</a>
+                    <a href="/locations/zurich/">Zurich</a>
+                    <a href="/locations/london/">London</a>
+                    <a href="/locations/amsterdam/">Amsterdam</a>
+                </div>
+            </div>
+            <div>
+                <span class="footer-col-label">Company</span>
+                <div class="footer-links">
+                    <a href="/about/">About & Team</a>
+                    <a href="/insights/">Insights</a>
+                    <a href="/contact/">Contact</a>
+                    <a href="mailto:hello@knowledge-navigators.com">hello@knowledge-navigators.com</a>
+                    <a href="/legal/impressum/">Impressum</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Knowledge Navigators Agency.</span>
+            <div class="footer-status"><span class="footer-status-dot" aria-hidden="true"></span><span>All systems operational.</span></div>
+        </div>
+    </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

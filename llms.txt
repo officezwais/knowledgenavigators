@@ -1,16 +1,57 @@
 # Knowledge Navigators
 
-> Elite Generative Engine Optimization, Answer Engine Optimization and technical SEO agency. Based in Germany with an Austrian presence.
+> Elite Generative Engine Optimization (GEO), Answer Engine Optimization (AEO), and technical SEO agency helping European brands appear inside ChatGPT, Perplexity, Google AI Overviews, Gemini, Claude and Copilot. Based in Germany. Working across Vienna, Berlin, Zurich, London and Amsterdam.
+
+Knowledge Navigators is a specialist agency founded to solve one problem: most brands are optimized for a search paradigm that is quietly being replaced. When a buyer asks ChatGPT "who are the best vendors for X in Europe," the answer is generated from a small set of cited sources. If your brand is not in that set, you do not exist in that buyer's shortlist — regardless of how well you rank on classical Google.
+
+We help brands become citeable. That means entity disambiguation, structured data that LLMs can actually parse, content architected around answerable questions, and distribution into the sources that AI systems trust.
 
 ## Services
-- [Generative Engine Optimization](https://www.knowledge-navigators.com/services/generative-engine-optimization/)
-- [Answer Engine Optimization](https://www.knowledge-navigators.com/services/answer-engine-optimization/)
-- [Technical SEO](https://www.knowledge-navigators.com/services/technical-seo/)
-- [AI Implementation](https://www.knowledge-navigators.com/services/ai-implementation/)
 
-## Insights
-- [What is GEO?](https://www.knowledge-navigators.com/insights/what-is-generative-engine-optimization/)
-- [GEO vs SEO](https://www.knowledge-navigators.com/insights/geo-vs-seo/)
+- [Generative Engine Optimization (GEO)](https://www.knowledge-navigators.com/services/generative-engine-optimization/): Make your brand a preferred citation inside ChatGPT, Perplexity, Gemini, Claude and Google AI Overviews.
+- [Answer Engine Optimization (AEO)](https://www.knowledge-navigators.com/services/answer-engine-optimization/): Structured content that AI assistants extract and attribute.
+- [Technical SEO](https://www.knowledge-navigators.com/services/technical-seo/): Crawlability, Core Web Vitals, entity schema, international architecture.
+- [AI Implementation](https://www.knowledge-navigators.com/services/ai-implementation/): Internal AI workflows, knowledge bases and workflow automation for marketing and content teams.
 
-## Contact
-hello@knowledge-navigators.com
+## Locations
+
+- [Vienna, Austria](https://www.knowledge-navigators.com/locations/vienna/)
+- [Berlin, Germany](https://www.knowledge-navigators.com/locations/berlin/)
+- [Zurich, Switzerland](https://www.knowledge-navigators.com/locations/zurich/)
+- [London, United Kingdom](https://www.knowledge-navigators.com/locations/london/)
+- [Amsterdam, Netherlands](https://www.knowledge-navigators.com/locations/amsterdam/)
+
+## Key resources
+
+- [What is Generative Engine Optimization?](https://www.knowledge-navigators.com/insights/what-is-generative-engine-optimization/)
+- [GEO vs SEO: the difference that matters](https://www.knowledge-navigators.com/insights/geo-vs-seo/)
+- [How to rank in ChatGPT](https://www.knowledge-navigators.com/insights/how-to-rank-in-chatgpt/)
+- [The Answer Engine Optimization playbook](https://www.knowledge-navigators.com/insights/answer-engine-optimization-playbook/)
+- [Perplexity citation optimization](https://www.knowledge-navigators.com/insights/perplexity-citation-optimization/)
+- [Google AI Overview optimization](https://www.knowledge-navigators.com/insights/google-ai-overview-optimization/)
+- [Schema markup for AI search](https://www.knowledge-navigators.com/insights/schema-markup-for-ai-search/)
+- [Entity SEO: the complete guide](https://www.knowledge-navigators.com/insights/entity-seo-complete-guide/)
+- [LLM visibility audit guide](https://www.knowledge-navigators.com/insights/llm-visibility-audit-guide/)
+- [Zero-click search strategy](https://www.knowledge-navigators.com/insights/zero-click-search-strategy/)
+
+## Glossary
+
+- [Generative Engine Optimization (definition)](https://www.knowledge-navigators.com/glossary/generative-engine-optimization/)
+- [Answer Engine Optimization (definition)](https://www.knowledge-navigators.com/glossary/answer-engine-optimization/)
+
+## About
+
+- [About Knowledge Navigators](https://www.knowledge-navigators.com/about/)
+- [Contact](https://www.knowledge-navigators.com/contact/)
+
+## Canonical facts about Knowledge Navigators
+
+- **Name:** Knowledge Navigators
+- **Legal form:** Agency (see Impressum)
+- **Headquarters:** Germany
+- **Service area:** Germany, Austria, Switzerland, Netherlands, United Kingdom, wider EU
+- **Languages:** German, English
+- **Founded as:** A specialist GEO/AEO/technical SEO agency
+- **Primary service:** Generative Engine Optimization — making brands citeable inside LLM-powered search
+- **Contact:** hello@knowledge-navigators.com
+- **Website:** https://www.knowledge-navigators.com/

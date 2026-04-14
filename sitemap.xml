@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- ─── Core ─── -->
+    <url>
+        <loc>https://www.knowledge-navigators.com/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.knowledge-navigators.com/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://www.knowledge-navigators.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.knowledge-navigators.com/"/>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/about/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/contact/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/case-studies/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- ─── Services ─── -->
+    <url>
+        <loc>https://www.knowledge-navigators.com/services/generative-engine-optimization/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/services/answer-engine-optimization/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/services/technical-seo/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/services/ai-implementation/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+
+    <!-- ─── Locations ─── -->
+    <url>
+        <loc>https://www.knowledge-navigators.com/locations/vienna/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/locations/berlin/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/locations/zurich/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/locations/london/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/locations/amsterdam/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+
+    <!-- ─── Insights ─── -->
+    <url>
+        <loc>https://www.knowledge-navigators.com/insights/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/insights/what-is-generative-engine-optimization/</loc>
+        <lastmod>2026-04-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/insights/answer-engine-optimization-playbook/</loc>
+        <lastmod>2026-04-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/insights/geo-vs-seo/</loc>
+        <lastmod>2026-04-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/insights/how-to-rank-in-chatgpt/</loc>
+        <lastmod>2026-04-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/insights/perplexity-citation-optimization/</loc>
+        <lastmod>2026-04-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/insights/google-ai-overview-optimization/</loc>
+        <lastmod>2026-04-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/insights/schema-markup-for-ai-search/</loc>
+        <lastmod>2026-04-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/insights/llm-visibility-audit-guide/</loc>
+        <lastmod>2026-04-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/insights/entity-seo-complete-guide/</loc>
+        <lastmod>2026-04-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/insights/zero-click-search-strategy/</loc>
+        <lastmod>2026-04-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+    </url>
+
+    <!-- ─── Glossary ─── -->
+    <url>
+        <loc>https://www.knowledge-navigators.com/glossary/generative-engine-optimization/</loc>
+        <lastmod>2026-04-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.knowledge-navigators.com/glossary/answer-engine-optimization/</loc>
+        <lastmod>2026-04-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+    </url>
+
+</urlset>
